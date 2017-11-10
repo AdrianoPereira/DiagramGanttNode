@@ -1,4 +1,4 @@
-dhtmlxGantt demo for Node.js using REST API and MySQL
+Diagrama de Gantt com Node.js usando REST API e MySQL
 ========================
 
 An example of CRUD implementation using Node.js and MySQL

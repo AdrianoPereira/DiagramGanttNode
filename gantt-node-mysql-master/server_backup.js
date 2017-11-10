@@ -7,19 +7,19 @@ var port = 1337;
 var app = express();
 var mysql = require('mysql');
 var db = mysql.createConnection({
-	host: '10.103.16.19',
-	user: 'adriano',
-	password: 'rpypkkc86xpmfb4',
-	database: 'tasks'
+	host: 'localhost',
+	user: 'root',
+	password: '1111',
+	database: 'ganttnode'
 });
 
 // var db = mysql.createConnection({
 // 	host: '10.103.16.19',
-// 	user: 'kennedy',
-// 	password: '164352',
+// 	user: 'adriano',
+// 	password: 'rpypkkc86xpmfb4',
 // 	database: 'tasks'
 // });
-//2pp9559bca
+
 app.use(express.static(path.join(__dirname, "public")));
 app.use(bodyParser.urlencoded({ extended: true }));
 
