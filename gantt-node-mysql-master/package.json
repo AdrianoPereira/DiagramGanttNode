@@ -1,0 +1,17 @@
+{
+  "name": "gantt-node-mysql",
+  "version": "1.0.0",
+  "description": "dhtmlxGantt demo for Node.js using REST API and MySQL",
+  "repository": "https://github.com/DHTMLX/gantt-node-mysql.git",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "date-format-lite": "^0.7.4",
+    "express": "^4.13.4",
+    "mysql": "^2.10.2"
+  },
+  "keywords": ["dhtmlxgantt"],
+  "author": "",
+  "license": "GPL V3",
+  "readmeFilename": "README.md"
+}
