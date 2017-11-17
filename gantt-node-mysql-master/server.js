@@ -3,13 +3,23 @@ var bodyParser = require('body-parser');
 var path = require('path');
 require("date-format-lite");
 
+// var port = 1337;
+// var app = express();
+// var mysql = require('mysql');
+// var db = mysql.createConnection({
+// 	host: '10.103.16.19',
+// 	user: 'root',
+// 	password: 'adrianogeek',
+// 	database: 'tasks'
+// });
+
 var port = 1337;
 var app = express();
 var mysql = require('mysql');
 var db = mysql.createConnection({
-	host: '10.103.16.19',
-	user: 'adriano',
-	password: 'rpypkkc86xpmfb4',
+	host: 'localhost',
+	user: 'root',
+	password: '1111',
 	database: 'tasks'
 });
 
@@ -20,6 +30,7 @@ var db = mysql.createConnection({
 // 	database: 'tasks'
 // });
 //2pp9559bca
+//adriano - adrianogeek passuserword
 app.use(express.static(path.join(__dirname, "public")));
 app.use(bodyParser.urlencoded({ extended: true }));
 
